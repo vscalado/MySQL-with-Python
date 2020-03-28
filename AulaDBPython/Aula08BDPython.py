@@ -9,3 +9,5 @@ conexao = pymysql.connect(
     passwd='',          #Senha
     database='twdbd'    #Nome do Banco de dados
 )
+
+
