@@ -10,16 +10,10 @@ conexao = pymysql.connect(
     database='twdbd'    #Nome do Banco de dados
 )
 
-'''cursor = conexao.cursor()
-cursor.execute('SELECT arma, nome FROM comalexandria')
-
-resultado = cursor.fetchall()
-for x in resultado:
-    print(x)'''
-
 cursor = conexao.cursor()
-cursor.execute("SELECT * FROM comalexandria where arma = 'Besta'")
-
+con_sql = "UPDATE comalexandria SET arma = 'AR-15'"
+cursor.execute(con_sql)
 resultado = cursor.fetchall()
+
 for x in resultado:
     print(x)
