@@ -11,7 +11,8 @@ conexao = pymysql.connect(
 )
 
 cursor = conexao.cursor()
-con_sql = "UPDATE comalexandria SET arma = 'Pistola' WHERE nome = 'Gleen'"
+con_sql = "DELETE FROM comalexandria WHERE arma = 'Pistola'"
 cursor.execute(con_sql)
+
 conexao.commit()
-print(cursor.rowcount,"Tabela Modificada e Gravada")
+print(cursor.rowcount,"Linha APAGADA")

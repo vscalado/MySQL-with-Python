@@ -11,7 +11,5 @@ conexao = pymysql.connect(
 )
 
 cursor = conexao.cursor()
-con_sql = "UPDATE comalexandria SET arma = 'Pistola' WHERE nome = 'Gleen'"
+con_sql = "DROP TABLE comsalvadores"
 cursor.execute(con_sql)
-conexao.commit()
-print(cursor.rowcount,"Tabela Modificada e Gravada")
