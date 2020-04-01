@@ -11,4 +11,4 @@ conexao = pymysql.connect(
 
 # Criando o Banco de Dados THE WALKING DEAD (twdbd)
 cursor = conexao.cursor()
-cursor.execute('CREATE DATABASE twdbd')
+cursor.execute('CREATE DATABASE twd7bd')

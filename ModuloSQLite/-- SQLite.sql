@@ -1,0 +1,28 @@
+-- SQLite
+insert into estados (uf, estado) values("AC", "ACRE");
+insert into estados (uf, estado) values("AL", "ALAGOAS");
+insert into estados (uf, estado) values("AP", "AMAPÁ");
+insert into estados (uf, estado) values("AM", "AMAZONAS");
+insert into estados (uf, estado) values("BA", "BAHIA");
+insert into estados (uf, estado) values("CE", "CEARÁ");
+insert into estados (uf, estado) values("DF", "DISTRITO FEDERAL");
+insert into estados (uf, estado) values("GO", "GOIÁS");
+insert into estados (uf, estado) values("ES", "ESPÍRITO SANTO");
+insert into estados (uf, estado) values("MA", "MARANHÃO");
+insert into estados (uf, estado) values("MT", "MATO GROSSO");
+insert into estados (uf, estado) values("MS", "MATO GROSSO DO SUL");
+insert into estados (uf, estado) values("MG", "MINAS GERAIS");
+insert into estados (uf, estado) values("PA", "PARÁ");
+insert into estados (uf, estado) values("PB", "PARAIBA");
+insert into estados (uf, estado) values("PR", "PARANÁ");
+insert into estados (uf, estado) values("PE", "PERNAMBUCO");
+insert into estados (uf, estado) values("PI", "PIAUÍ");
+insert into estados (uf, estado) values("RJ", "RIO DE JANEIRO");
+insert into estados (uf, estado) values("RN", "RIO GRANDE DO NORTE");
+insert into estados (uf, estado) values("RS", "RIO GRANDE DO SUL");
+insert into estados (uf, estado) values("RO", "RONDÔNIA");
+insert into estados (uf, estado) values("RR", "RORAIMA");
+insert into estados (uf, estado) values("SP", "SÃO PAULO");
+insert into estados (uf, estado) values("SC", "SANTA CATARINA");
+insert into estados (uf, estado) values("SE", "SERGIPE");
+insert into estados (uf, estado) values("TO", "TOCANTINS");
